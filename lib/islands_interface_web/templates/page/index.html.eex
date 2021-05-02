@@ -1,10 +1,2 @@
-<section class="phx-hero">
-  <h1><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
-  <p class="lead">A productive web framework that does not compromise speed and maintainability.</p>
-  <p>
-    <%= form_tag("/test") do
-      [tag(:input, type: "text", name: "name"),
-      tag(:input, type: "submit", value: "New Game")]
-    end%>
-  </p>
-</section>
+<div id="islands">
+</div>
